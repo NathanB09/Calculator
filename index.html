@@ -2,9 +2,42 @@
 <html>
   <head>
     <title>Calculator</title>
-    <link ref="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="calculate.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
   </head>
   <body>
-    <script src="calculate.js"></script>
+    <h1>Calculator</h1>
+    <div id="calculator">
+      <div id="output-box">0</div>
+      <div>
+        <button id="AC" class="extend clears">AC</button>
+        <button id="C" class="clears">C</button>
+        <button id="divide" class="operations">&divide;</button>
+      </div>
+      <div>
+        <button id="seven" class="numbers">7</button>
+        <button id="eight" class="numbers">8</button>
+        <button id="nine" class="numbers">9</button>
+        <button id="times" class="operations">&times;</button>
+      </div>
+      <div>
+        <button id="four" class="numbers">4</button>
+        <button id="five" class="numbers">5</button>
+        <button id="six" class="numbers">6</button>
+        <button id="plus" class="operations">+</button>
+      </div>
+      <div>
+        <button id="one" class="numbers">1</button>
+        <button id="two" class="numbers">2</button>
+        <button id="three" class="numbers">3</button>
+        <button id="minus" class="operations">-</button>
+      </div>
+      <div>
+        <button id="zero" class="extend numbers">0</button>
+        <button id="dot" class="numbers">.</button>
+        <button id="equal" class="operations">=</button>
+      </div>
+    </div>
   </body>
 </html>
