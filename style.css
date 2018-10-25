@@ -1,0 +1,87 @@
+/* Background pattern from Toptal Subtle Patterns */
+body {
+  text-align: center;
+  background-image: url(stardust.png);
+}
+
+h1 {
+  font-family: 'Mali', cursive;
+  font-size: 43px;
+  font-style: italic;
+  text-shadow: 0 0 30px #8AACB8, 0 0 10px #CC8F51;
+}
+
+div {
+  padding: 2px;
+}
+
+button {
+  height: 50px;
+  width: 55px;
+  font-size: 20px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.4);
+  font-family: 'Mali', cursive;
+  transition: 0.05s;
+}
+
+button:active {
+  box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+a, p {
+  font-family: 'Mali', cursive;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+a {
+  color: #696969;
+}
+
+.extend {
+  width: 114px;
+}
+
+.clears {
+  background-color: #9AA7AB;
+  border-bottom: 3px solid #7B8588;
+}
+
+.operations {
+  background-color: #ffb366;
+  border-bottom: 3px solid #CC8F51;
+  font-size: 25px;
+}
+
+.numbers {
+  background-color: #28908A;
+  border-bottom: 3px solid #20736E;
+}
+
+#calculator {
+  width: 236px;
+  height: 308px;
+  border-radius: 10px;
+  background-color: #ff6666;
+  padding: 15px;
+  padding-bottom: 35px;
+  display: inline-block;
+  box-shadow: 0px 0px 26px 0 #8AACB8;
+}
+
+#output-box {
+  width: 232px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: right;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.16);
+  font-family: 'Mali', cursive;
+}
