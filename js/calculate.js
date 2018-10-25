@@ -8,7 +8,7 @@ document.addEventListener("click", function(e) {
 
     if (b === "=") {
       try {
-        output.innerHTML = eval(output.innerHTML).toFixed(4)
+        output.innerHTML = eval(output.innerHTML)
       } catch(err) {
         output.innerHTML = ""
         alert("Invalid entry.")
